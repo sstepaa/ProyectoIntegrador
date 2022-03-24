@@ -1,0 +1,32 @@
+body{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h1,h2,h3, footer{
+    font-family: 'coiny' , cursive;
+    color: black;
+}
+
+header h1 {
+    font-size: 41px;
+    background-color: #fcee21;
+}
+
+h2{
+    font-size: 26px;
+}
+
+footer{
+    background-color: #fcee21;
+}
+
+footer h1{
+    font-size: 33px;
+}
+
+main{
+    font-size: 21px;
+}

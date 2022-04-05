@@ -17,6 +17,18 @@ h1,h2,h3, footer{
     font-family: 'coiny' , cursive;
     color: black;
 }
+
+/* Link de la barra de navegación */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Section servicios lista ordenada */
+ol li {
+    margin-bottom: 6%;
+}
 nav h1 {
     margin-right: auto;
 }
@@ -74,4 +86,25 @@ footer h1{
 
 main{
     font-size: 21px;
+}
+
+/* FORMULARIO */
+span{
+    color: red;
+}
+
+label{
+    display: block;
+    margin-bottom: 5%;
+}
+input{
+    height: 40px;
+}
+
+input, textarea{
+    width: 100%;
+}
+
+form{
+    margin: auto;
 }

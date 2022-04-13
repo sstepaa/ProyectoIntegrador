@@ -108,3 +108,12 @@ input, textarea{
 form{
     margin: auto;
 }
+
+.grande{
+    font-size: 100px;
+    font-family: 'coiny' , cursive;
+}
+
+h1,h2,h3,h4, .item{
+    color: #000;
+}

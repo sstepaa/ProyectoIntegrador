@@ -14,15 +14,15 @@
 </head>
 <body>
     <nav>
-        <h1 class="grande">WWWWAPAS</h1>
+        <h1>WWWWAPAS</h1>
         <ul>
             <li> <a href="#">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
-    <header class="encolumnar">
-        <section id="presentacion">
+    <header>
+        <section>
             <h1>SOMOS <strong>wwwwapas</strong></h1>
             <h2>Social media managers | creadoras de contenidos</h2>
             <p>Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio. <strong>¡Creamos relaciones estables y duraderas con tus clientes!</strong></p>
@@ -33,7 +33,7 @@
         <img src="img-proyectoIntegrador/img/foto.png" alt="foto Pnj">
     </section>
     <main role="main">
-    <div class="encolumnar">
+    <div>
         <section>
             <h3>¡Hola! Somos SOFI & JULIA</h3>
             <p>las social media managers, las creadoras de contenido, las copywriters, las
@@ -51,11 +51,13 @@
         </section>
     </div> 
 
-    <div id="servicios" class="encolumnar">
-        <section> <img id="imagen" src="./img-proyectoIntegrador/img/img-servicios.png" alt=""></section>
+    <div id="servicios">
+        <section>
+            <img src="img-proyectoIntegrador/img/img-servicios.png" id="imagen" alt="">
+        </section>
 
         <section>
-            <h2 id="titulo">Servicios</h2>
+            <h4>Servicios</h4>
 
             <ol>
                 <li>Análisis de perfil (Benchmarking)</li>
@@ -64,7 +66,7 @@
                 <li>Repuestas a mensajes y consultas</li>
                 <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
                 <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-                <li class="item">¡Empezamos a comunicar!</li>
+                <li>¡Empezamos a comunicar!</li>
             </ol>
         </section>
     </div>
@@ -73,12 +75,12 @@
 
     </div>
 
-    <div id="contacto" class="encolumnar">
+    <div id="contacto">
         <section>
             <h4>¿Quéres que nos <br> contactemos con vos</h4>
-            <p class="item">Envianos tu consulta >></p>
+            <p>Envianos tu consulta >></p>
                 <!-- Formulario -->
-            <form method="post" action="php/index.php">
+            <form method="get" action="php/index.php">
                 <label>Nombre <span>*</span> <br>
                     <input name="Nombre" required type="text">
                 </label>
@@ -90,7 +92,7 @@
                     <textarea required name="Comentarios" id="" cols="30" rows="10"></textarea>
                 </label>
 
-                <div class="boton encolumnar">
+                <div>
                     <input type="submit" value="Enviar Consulta" id="">
                     <input type="reset" value="Borrar" id="">
                 </div>

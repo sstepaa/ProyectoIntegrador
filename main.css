@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+img{
+    width: 80%;
+}
 body{
     color: #333;
     font-family: 'Montserrat', sans-serif;
@@ -19,6 +22,12 @@ h1,h2,h3, footer{
 }
 
 /* Link de la barra de navegación */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
 ul{
     list-style: none;
     padding: 0;
@@ -78,6 +87,8 @@ footer{
     background-color: #fcee21;
     height: 100px;
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 footer h1{
@@ -124,6 +135,8 @@ h1,h2,h3,h4, .item{
     background-color: #FCEE21;
 }
 .encolumnar{
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     margin-bottom: 30px;
     border-bottom: 0.5px solid gray;

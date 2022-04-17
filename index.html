@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Barra de navegación -->
     <nav>
         <h1>WWWWAPAS</h1>
         <ul>
@@ -21,19 +22,24 @@
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
-    <header>
-        <section>
-            <h1>SOMOS <strong>wwwwapas</strong></h1>
+    <!-- Header -->
+    <header class="encolumnar">
+        <section id="presentacion">
+            <h1>somos <strong class="grande">wwwwapas</strong></h1>
             <h2>Social media managers | creadoras de contenidos</h2>
+            
             <p>Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio. <strong>¡Creamos relaciones estables y duraderas con tus clientes!</strong></p>
         </section>
+        
+        <section>
+            <img src="img-proyectoIntegrador/img/foto.png" alt="imagen-wapas">
+        </section>
     </header>
-    
-    <section>
-        <img src="img-proyectoIntegrador/img/foto.png" alt="foto Pnj">
-    </section>
+
     <main role="main">
-    <div>
+        <!-- Primer DIV -->
+    <div class="encolumnar">
+        <!-- Primera seccion -->
         <section>
             <h3>¡Hola! Somos SOFI & JULIA</h3>
             <p>las social media managers, las creadoras de contenido, las copywriters, las
@@ -41,7 +47,7 @@
             potenciadoras de ventas, el posicionamiento de tu marca.<strong>¡Somos el complemento
             que necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong></p>
         </section>
-    
+        <!-- Segunda seccion -->
         <section>
             <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
             <p>La transformación digital no es solo para grandes compañías, todas las empresas
@@ -50,14 +56,15 @@
             digital y generá nuevas ventas y contactos!</strong></p>
         </section>
     </div> 
-
-    <div id="servicios">
+    <!-- FIN del primer DIV -->
+    <!-- Segundo DIV -->
+    <div class="encolumnar" id="servicios">
         <section>
-            <img src="img-proyectoIntegrador/img/img-servicios.png" id="imagen" alt="">
+            <img src="img-proyectoIntegrador/img/img-servicios.png" id="imagen" alt="imagen-servicio">
         </section>
 
         <section>
-            <h4>Servicios</h4>
+            <h2 id="titulo">Servicios</h2>
 
             <ol>
                 <li>Análisis de perfil (Benchmarking)</li>
@@ -66,45 +73,42 @@
                 <li>Repuestas a mensajes y consultas</li>
                 <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
                 <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-                <li>¡Empezamos a comunicar!</li>
+                <li class="item">¡Empezamos a comunicar!</li>
             </ol>
         </section>
     </div>
-
-    <div id="contacto">
-
-    </div>
-
-    <div id="contacto">
+    <!-- FIN del segundo DIV -->
+    <!-- Tecer DIV -->
+    <div id="contacto" class="encolumnar">
         <section>
             <h4>¿Quéres que nos <br> contactemos con vos</h4>
-            <p>Envianos tu consulta >></p>
-                <!-- Formulario -->
-            <form method="get" action="php/index.php">
-                <label>Nombre <span>*</span> <br>
-                    <input name="Nombre" required type="text">
-                </label>
-                <label>Email <span>*</span><br>
-                    <input name="Email" required type="email">
-                </label>
-                <label for="">
-                    Mensaje <span>*</span> <br>
-                    <textarea required name="Comentarios" id="" cols="30" rows="10"></textarea>
-                </label>
-
-                <div>
-                    <input type="submit" value="Enviar Consulta" id="">
-                    <input type="reset" value="Borrar" id="">
-                </div>
-            </form>
+            <p class="item">Envianos tu consulta >></p>
         </section>
+    <!-- Formulario -->
+    <section>
+        <form method="get" action="php/index.php">
+            <label>Nombre <span>*</span> <br>
+                <input name="Nombre" required type="text">
+            </label>
+            <label>Email <span>*</span><br>
+                <input name="Email" required type="email">
+            </label>
+            <label for="">
+                Mensaje <span>*</span> <br>
+                <textarea required name="Comentarios" id="" cols="30" rows="10"></textarea>
+            </label>
 
-        <section>
-            
-        </section>
+            <div>
+                <input type="submit" value="Enviar Consulta" id="">
+                <input type="reset" value="Borrar" id="">
+            </div>
+        </form>
+    </section>         
     </div>
-    </main>
-    <aside>
+    <!-- FIN del tercer DIV -->
+</main>
+<!-- FIN del MAIN -->
+    <aside class="encolumnar">
         <a href="http://wwww.instagram.com">
             <img src="img-proyectoIntegrador/img/instagram-icon.png" alt="Instragram">
         </a>
